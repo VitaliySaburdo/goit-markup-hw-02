@@ -1,0 +1,163 @@
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--text-logo-color: #000000;
+--accent-color: #2196F3;  
+}
+
+body {
+background-color: #FFFFFF;
+color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+letter-spacing: 0.03em;
+}   
+
+
+.list {
+list-style: none;
+}
+
+
+/* Header */
+.logo {
+color: var(--accent-color);
+font-family: Raleway, cursive;
+font-family: 'Raleway';
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
+}
+
+.logo-accent {
+color: var(--text-logo-color);
+}
+
+/* Navbar */
+
+.site-nav .link, .auth-nav .link {
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Main */
+
+.section-title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
+
+.soft-skills .title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+
+.soft-skills .text {
+font-size: 14px;
+line-height: 1.17;
+}
+
+.soft-skills, .name {
+color: var(--title-text-color);
+}
+
+.list .name  {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+    }
+
+.list .profession {
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+}    
+
+.button-portfolio {
+color: var(--title-text-color);
+background-color: #F5F4FA;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+}
+
+.button-portfolio:hover {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+.list .title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.list .examples {
+font-size: 16px;
+line-height: 1.87;
+}
+
+/* Hero */
+
+.hero .hero-title {
+color: #FFFFFF;
+background-color: #2F303A;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.button-text {
+background-color: #2196F3;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+
+/* Footer */
+.contacts .link {
+color: #FFFFFF;
+font-size: 14px;
+line-height: 1.4;
+letter-spacing: 0.02em;
+text-decoration: none;
+font-style: normal;
+
+}
+
+.footer-skin {
+background-color: #2F303A;
+}
+
+.logo-footer {
+color: #FFFFFF;
+}
