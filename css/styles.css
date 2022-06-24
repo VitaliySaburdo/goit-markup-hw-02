@@ -1,163 +1,191 @@
 :root {
---primary-text-color: #757575;
---title-text-color: #212121;
---text-logo-color: #000000;
---accent-color: #2196F3;  
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --text-logo-color: #000000;
+  --accent-color: #2196f3;
+  --wite-background-color: #ffffff;
+  --button-color: #f5f4fa;
+  --accent-bacground-color: #2f303a;
+  --wite-text-color: #ffffff;
+  --section-bacground-color: #eeeeee;
+  --alt-section-color: #e5e5e5;
 }
 
 body {
-background-color: #FFFFFF;
-color: var(--primary-text-color);
-font-family: Roboto, sans-serif;
-letter-spacing: 0.03em;
-}   
-
-
-.list {
-list-style: none;
+  background-color: var(--wite-background-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
+.list {
+  list-style: none;
+}
 
 /* Header */
 .logo {
-color: var(--accent-color);
-font-family: Raleway, cursive;
-font-family: 'Raleway';
-font-size: 26px;
-line-height: 1.19;
-text-decoration: none;
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo-accent {
-color: var(--text-logo-color);
+  color: var(--text-logo-color);
 }
 
 /* Navbar */
 
-.site-nav .link, .auth-nav .link {
-color: var(--title-text-color);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.4;
-letter-spacing: 0.02em;
-text-decoration: none;
+.site-nav .link,
+.auth-nav .link {
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
 }
 
-.site-nav .link:hover, .site-nav .link:focus {
-    color: var(--accent-color);
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* Main */
 
 .section-title {
-color: var(--title-text-color);
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.section.Team {
+  background-color: var(--button-color);
 }
 
 .soft-skills .title {
-color: var(--title-text-color);
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-text-transform: uppercase;
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .soft-skills .text {
-font-size: 14px;
-line-height: 1.17;
+  line-height: 1.17;
 }
 
-.soft-skills, .name {
-color: var(--title-text-color);
+.soft-skills,
+.name {
+  color: var(--title-text-color);
 }
 
-.list .name  {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-    }
+.list .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
 
 .list .profession {
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-}    
-
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .button-portfolio {
-color: var(--title-text-color);
-background-color: #F5F4FA;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
+  color: var(--title-text-color);
+  background-color: var(--button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
 }
 
 .button-portfolio:hover {
-    color: #FFFFFF;
-    background-color: var(--accent-color);
+  color: var(--wite-text-color);
+  background-color: var(--accent-color);
 }
 
 .list .title {
-color: var(--title-text-color);
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .list .examples {
-font-size: 16px;
-line-height: 1.87;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 /* Hero */
 
 .hero .hero-title {
-color: #FFFFFF;
-background-color: #2F303A;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+  color: var(--wite-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.section.hero {
+  background-color: var(--accent-bacground-color);
 }
 
 .button-text {
-background-color: #2196F3;
-color: #FFFFFF;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--wite-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* Footer */
 .contacts .link {
-color: #FFFFFF;
-font-size: 14px;
-line-height: 1.4;
-letter-spacing: 0.02em;
-text-decoration: none;
-font-style: normal;
-
+  color: var(--wite-text-color);
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  font-style: normal;
 }
 
 .footer-skin {
-background-color: #2F303A;
+  background-color: var(--accent-bacground-color);
 }
 
 .logo-footer {
-color: #FFFFFF;
+  color: var(--wite-text-color);
 }
