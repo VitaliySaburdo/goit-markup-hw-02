@@ -21,26 +21,11 @@ body {
 }
 
 /* Decoration: text link */
-.header-list,
-.header-contacts,
-.peculiarities-list,
-.work-list,
-.team-list,
-.footer-list,
-.list-button,
-.portfolio-list,
-.footer-link,
-.address-link {
+.list {
   list-style: none;
 }
 
-.logo,
-.logo-accent,
-.link-nav,
-.header-link,
-.footer-link,
-.contact-link,
-.address-link {
+.link {
   text-decoration: none;
 }
 
