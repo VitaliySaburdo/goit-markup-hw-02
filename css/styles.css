@@ -10,6 +10,7 @@
   --section-bacground-color: #eeeeee;
   --alt-section-color: #e5e5e5;
   --footer-text-color: rgba(255, 255, 255, 0.6);
+  --team-background-color: #f5f4fa;
 }
 body {
   background-color: var(--wite-background-color);
@@ -160,6 +161,9 @@ body {
   line-height: 1.16;
   text-align: center;
   color: var(--title-text-color);
+}
+.team {
+  background-color: var(--team-background-color);
 }
 .name {
   font-weight: 500;
